@@ -13,7 +13,7 @@ cursor = db.cursor()
 import csv
 
 # Caminho para o ficheiro CSV
-csv_file = r'C:\Users\simao\OneDrive\Área de Trabalho\MIEI - UMinho\5ª matrícula\2º semestre\BD\Trabalho Prático\Sistema de Recolha de Dados\Dataset.csv'
+csv_file = r'[root_path]\Dataset.csv'
 
 # Abrir o ficheiro CSV
 with open(csv_file, 'r', encoding="utf-8") as file:
